@@ -1,3 +1,5 @@
+package com.xy.connectPostgresql.controller;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -16,8 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-//import com.bezkoder.spring.jpa.postgresql.model.Tutorial;
+import com.xy.connectPostgresql.model.Tutorial;
 //import com.bezkoder.spring.jpa.postgresql.repository.TutorialRepository;
+import com.xy.connectPostgresql.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController

@@ -1,3 +1,5 @@
+package com.xy.connectPostgresql.model;
+
 import jakarta.persistence.*;
 
 //persistent Java class
