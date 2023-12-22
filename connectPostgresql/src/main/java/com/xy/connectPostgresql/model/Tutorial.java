@@ -1,5 +1,6 @@
 import jakarta.persistence.*;
 
+//persistent Java class
 @Entity
 @Table(name = "tutorials")
 public class Tutorial {
